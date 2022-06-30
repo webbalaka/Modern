@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Montserrat:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Crimson Pro', serif;
+    color: white;
+    list-style: none;
+}
+
+.container {
+    width: 1440px;
+    height: 1080px;
+    background: #181719;
+}
+
+
+body {
+    width: 1440px;
+    height: 1080px;
+    background: pink;
+}
+
+header {
+    margin: auto 76px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header ul {
+    display: flex;
+
+}
+
+header li {
+    margin: 0 43px;
+}
+
+header h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+section {
+    height: 100%;
+    text-align: left;
+    display: flex;
+    margin: auto;
+}
+
+.text {
+    margin: auto 0;
+    margin-left: 77px;
+    margin-right: 87px;
+}
+
+.text h1 {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+}
+
+.text p {
+    margin-top: 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    width: 410px;
+    height: 145px;
+}
+
+.text h2 {
+    margin-top: 48px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.pic {
+    margin: auto;
+}
+
+.card {
+    width: 410px;
+    height: 189px;
+    top: 822px;
+    left: 921px;
+    position: absolute;
+    z-index: 1;
+    background: #181719;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card .user {
+    display: flex;
+}
+
+.card .user .profile {
+    margin-left: 31px;
+    margin-top: 18px;
+    margin-right: 19px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-image: url(https://c.tenor.com/x8v1oNUOmg4AAAAd/rickroll-roll.gif);
+    background-size: cover;
+    background-position: center
+}
+
+.card .user .name {
+    margin: 23px 0;
+}
+
+.card .user .name h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.card .user .name p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #828282;
+}
+
+.card .tell p {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    width: 287px;
+    height: 62px;
+    margin-left: 26px;
+    margin-bottom: 34px;
+
+}
